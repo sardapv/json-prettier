@@ -8,9 +8,11 @@ Though I have used Angular for this project but core logic applies to every fram
 
 Written for blog published at [Pretty-Print colorful JSON inside HTML 🌟 ](http://pranavsarda.hashnode.dev/)
 
+![logo](poster.jpg?raw=true)
+
 ![Angular](https://img.shields.io/badge/Angular-12.0.0-red) ![materialUI](https://img.shields.io/badge/angular--material-12.0.0-blue) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-2.1.2-%2306B6D4)
 
-Live at [json-prettier 🚀](https://sardapv.github.io/json-prettier)
+### Live at [json-prettier 🚀](https://sardapv.github.io/json-prettier)
 
 # How to run this project
 
