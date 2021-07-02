@@ -1,0 +1,44 @@
+<div
+  class="
+    bg-primary-700
+    h-full
+    w-full
+    flex
+    md:flex-row
+    flex-col
+    justify-between
+    items-center
+    md:p-10
+    p-5
+    overflow-auto
+  "
+>
+  <section class="h-full w-full bg-light-500 rounded-sm" id="editor">
+    <textarea
+      matInput
+      class="h-full w-full p-3 rounded-sm outline-none resize-none"
+      placeholder="Copy JSON here"
+      [(ngModel)]="inputValue"
+      [value]="inputValue"
+    ></textarea>
+  </section>
+  <section class="md:h-full md:w-80 w-20 h-80 mx-5 py-3 flex flex-col justify-center items-center">
+    <img src="assets/images/logo.svg" alt="logo" />
+    <div class="text-primary-100 mt-4 mb-2 text-xs">Built with</div>
+    <div class="inline-flex justify-center items-center w-full">
+      <img src="assets/images/angular.svg" alt="angular" matTooltip="Angular" class="mr-2" />
+      <img src="assets/images/tailwindcss.svg" alt="tailwindcss" matTooltip="TailwindCSS" />
+    </div>
+    <div class="text-primary-100 mt-4 mb-2 text-xs">Sourcecode</div>
+    <div class="inline-flex justify-center items-center w-full">
+      <a href="https://github.com/sardapv/json-prettier" target="_blank">
+        <img src="assets/images/github.svg" alt="repo" matTooltip="Github Rpeo" class="mr-2" />
+      </a>
+    </div>
+  </section>
+  <section
+    class="h-full w-full bg-primary-900 rounded-sm text-yellow-500 p-3 overflow-auto shadow-md"
+  >
+    <pre [innerHTML]="inputValue | prettyjson: [true, 3]"></pre>
+  </section>
+</div>
