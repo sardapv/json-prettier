@@ -4,7 +4,7 @@
 
 [![pipeline: lint-build-deploy](https://github.com/sardapv/json-prettier/actions/workflows/build-deploy.yml/badge.svg)](https://github.com/sardapv/json-prettier/actions/workflows/build-deploy.yml)
 
-This project is generated using [angular-material-starter-template](https://github.com/sardapv/angular-material-starter-template)
+This project is generated using [angular-material-starter-template v1.0.0 (Angular12) ](https://github.com/sardapv/angular-material-starter-template)
 
 Though I have used Angular for this project but core logic applies to every framework and vanilla javascript.
 
